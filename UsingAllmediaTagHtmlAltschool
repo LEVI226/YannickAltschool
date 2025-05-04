@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Portfolio</title>
+</head>
+<body>
+    <header id="top">
+        <h1>My Media Portfolio</h1>
+        <p>Student ID: ALT/SOE/025/1318</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me - In Multiple Media Formats</h2>
+            
+            <!-- Picture Element with multiple sources for different screen sizes -->
+            <figure>
+                <picture>
+                    <!-- Mobile view (small screens) -->
+                    <source media="(max-width: 600px)" srcset="/api/placeholder/300/200" type="image/jpeg">
+                    <!-- Tablet view (medium screens) -->
+                    <source media="(max-width: 1024px)" srcset="/api/placeholder/600/400" type="image/jpeg">
+                    <!-- Desktop view (large screens) -->
+                    <source media="(min-width: 1025px)" srcset="/api/placeholder/900/600" type="image/jpeg">
+                    <!-- Fallback image for browsers that don't support picture -->
+                    <img src="/api/placeholder/600/400" alt="Portrait of a software engineering student" width="600" height="400">
+                </picture>
+                <figcaption>Passionate about creating innovative software solutions</figcaption>
+            </figure>
+            
+            <!-- Audio element -->
+            <h3>My Audio Introduction</h3>
+            <audio controls>
+                <source src="student_introduction.mp3" type="audio/mpeg">
+                <source src="student_introduction.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+            <p><em>Note: This is a placeholder for an audio introduction. In a real implementation, you would record your own introduction.</em></p>
+            
+            <!-- Video element -->
+            <h3>My Journey in Tech</h3>
+            <video controls width="560" height="315" poster="/api/placeholder/560/315">
+                <source src="my_tech_journey.mp4" type="video/mp4">
+                <source src="my_tech_journey.webm" type="video/webm">
+                <track src="captions_en.vtt" kind="subtitles" srclang="en" label="English">
+                Your browser does not support the video element.
+            </video>
+            <p><em>Note: This is a placeholder for a video about my journey. In a real implementation, you would create your own video.</em></p>
+            
+            <!-- Embedded map showing approximate location -->
+            <h3>Where I Study</h3>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="about:blank" 
+                title="Map of study location"
+                frameborder="0" 
+                allowfullscreen>
+                Your browser does not support iframes.
+            </iframe>
+            <p><em>Note: This is a placeholder for an embedded map. In a real implementation, you would embed an actual map service.</em></p>
+            
+            <!-- Canvas element with basic drawing -->
+            <h3>My Skills Visualization</h3>
+            <canvas id="skillsCanvas" width="400" height="200">
+                Your browser does not support the canvas element.
+            </canvas>
+            <p><em>Note: This canvas would normally contain a visualization of skills. Without JavaScript, it remains blank.</em></p>
+            
+            <!-- SVG element -->
+            <h3>My Learning Path</h3>
+            <svg width="400" height="200" viewBox="0 0 400 200">
+                <rect x="10" y="10" width="380" height="180" fill="lightgray" stroke="black" />
+                <circle cx="50" cy="100" r="30" fill="white" stroke="black" />
+                <text x="50" y="100" text-anchor="middle" dominant-baseline="middle">Start</text>
+                <line x1="80" y1="100" x2="150" y2="100" stroke="black" stroke-width="2" />
+                <circle cx="180" cy="100" r="30" fill="white" stroke="black" />
+                <text x="180" y="100" text-anchor="middle" dominant-baseline="middle">Learn</text>
+                <line x1="210" y1="100" x2="280" y2="100" stroke="black" stroke-width="2" />
+                <circle cx="310" cy="100" r="30" fill="white" stroke="black" />
+                <text x="310" y="100" text-anchor="middle" dominant-baseline="middle">Build</text>
+            </svg>
+            
+            <!-- Details and Summary elements -->
+            <h3>Why I'm Passionate About Engineering</h3>
+            <details>
+                <summary>Click to read my story</summary>
+                <p>My journey into software engineering began when I was young and curious about how computers work. I always found myself taking things apart to understand their inner workings.</p>
+                <p>When I wrote my first "Hello World" program, I was instantly hooked. The ability to create something from nothing but logic and creativity was fascinating.</p>
+                <p>At AltSchool Africa, I've found a community that shares this passion. Each day brings new challenges and learning opportunities that help me grow as an engineer.</p>
+                <p>I believe technology has the power to solve real-world problems and improve lives. That's why I'm dedicated to mastering the craft of software engineering - to be part of that positive change.</p>
+            </details>
+            
+            <!-- Meter and Progress elements -->
+            <h3>My Current Progress</h3>
+            <p>Course completion: 
+                <progress value="75" max="100">75%</progress> 75%
+            </p>
+            <p>Skill level in HTML: 
+                <meter value="8" min="0" max="10" low="3" high="7" optimum="10">8 out of 10</meter> 8/10
+            </p>
+            <p>Skill level in JavaScript: 
+                <meter value="7" min="0" max="10" low="3" high="7" optimum="10">7 out of 10</meter> 7/10
+            </p>
+            <p>Skill level in Backend: 
+                <meter value="6" min="0" max="10" low="3" high="7" optimum="10">6 out of 10</meter> 6/10
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - ALT/SOE/025/1318</p>
+        <p><a href="#top">Back to top</a></p>
+        <p><a href="index.html">Return to Profile</a> | <a href="table.html">View Schools and Courses</a></p>
+    </footer>
+</body>
+</html>
