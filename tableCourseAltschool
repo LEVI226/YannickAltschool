@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Africa Schools and Courses</title>
+</head>
+<body>
+    <header id="top">
+        <h1>AltSchool Africa Schools and Courses</h1>
+        <p>Student ID: ALT/SOE/025/1318</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Schools and Programs at AltSchool Africa</h2>
+            
+            <table border="1">
+                <caption>Complete List of Schools and Courses at AltSchool Africa</caption>
+                
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Department/Track</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <!-- School of Engineering -->
+                    <tr>
+                        <td rowspan="4">School of Engineering</td>
+                        <td>Frontend Engineering</td>
+                        <td>Focuses on building user interfaces and client-side applications using technologies like HTML, CSS, JavaScript, and modern frameworks.</td>
+                    </tr>
+                    <tr>
+                        <td>Backend Engineering</td>
+                        <td>Concentrates on server-side logic, databases, API development, and system architecture using languages like Node.js, Python, or Java.</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud Engineering</td>
+                        <td>Teaches deployment, scaling, and management of applications using cloud platforms like AWS, Azure, and Google Cloud.</td>
+                    </tr>
+                    <tr>
+                        <td>Cybersecurity</td>
+                        <td>Covers security principles, threat detection, vulnerability assessment, and security implementation across systems and networks.</td>
+                    </tr>
+                    
+                    <!-- School of Product -->
+                    <tr>
+                        <td rowspan="3">School of Product</td>
+                        <td>Product Design</td>
+                        <td>Focuses on UI/UX design, user research, prototyping, and creating user-centered digital products.</td>
+                    </tr>
+                    <tr>
+                        <td>Product Marketing</td>
+                        <td>Covers strategies for product launches, market positioning, customer acquisition, and growth marketing.</td>
+                    </tr>
+                    <tr>
+                        <td>Product Management</td>
+                        <td>Teaches product lifecycle management, roadmapping, feature prioritization, and cross-functional team coordination.</td>
+                    </tr>
+                    
+                    <!-- School of Data -->
+                    <tr>
+                        <td rowspan="3">School of Data</td>
+                        <td>Data Analysis</td>
+                        <td>Focuses on extracting insights from data using tools like Excel, SQL, and visualization platforms.</td>
+                    </tr>
+                    <tr>
+                        <td>Data Science</td>
+                        <td>Covers statistical analysis, machine learning, predictive modeling, and advanced data interpretation.</td>
+                    </tr>
+                    <tr>
+                        <td>Data Engineering</td>
+                        <td>Teaches data pipeline development, ETL processes, data warehousing, and big data technologies.</td>
+                    </tr>
+                </tbody>
+                
+                <tfoot>
+                    <tr>
+                        <td colspan="3">All programs are designed with industry-relevant curriculum and hands-on projects.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - AltSchool Africa Course Catalog</p>
+        <p><a href="#top">Back to top</a></p>
+        <p><a href="index.html">Return to Profile</a> | <a href="media.html">View Media Page</a></p>
+    </footer>
+</body>
+</html>
